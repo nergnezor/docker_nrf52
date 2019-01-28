@@ -1,8 +1,5 @@
 FROM nergnezor/gcc-arm
 
-ENV GNU_VERSION=7.2.1
-ENV GNU_NAME=gcc-arm-none-eabi-7-2017-q4-major
-
 WORKDIR /usr/share/nRF5-SDK
 
 RUN apt install -y unzip && \
